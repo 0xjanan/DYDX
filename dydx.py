@@ -6,7 +6,7 @@ import requests as r
 from datetime import datetime
 import time
 
-st.set_page_config(page_title='DYDX Unlock',layout='wide',page_icon=':bar_chart:')
+st.set_page_config(page_title='DYDX Unlock',layout='wide',page_icon="chart_with_upwards_trend")
 
 # Data Sources
 @st.cache(ttl=86400, allow_output_mutation=True)
