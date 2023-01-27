@@ -325,7 +325,7 @@ with u5:
 
 with st.expander('SQL sources'):
     st.write('''
-        **This dashboard's charts are updating every 24 hours, so the numbers, percentages included in paragraphs may change.**
+        **This dashboard's charts are updating every 24 hours, so the numbers and percentages included in paragraphs may not be identical as the numbers showing on charts. The correct data will be shown on charts..**
         
         - https://app.flipsidecrypto.com/velocity/queries/ecca7d16-3ed5-4870-8229-6fe44350ece5
         - https://app.flipsidecrypto.com/velocity/queries/de06666e-ca1a-4939-a3d7-38acd0462f26
