@@ -6,7 +6,7 @@ import requests as r
 from datetime import datetime
 import time
 
-st.set_page_config(page_title='DYDX Unlock',layout='wide',page_icon="chart_with_upwards_trend")
+st.set_page_config(page_title='DYDX Overview',layout='wide',page_icon="chart_with_upwards_trend")
 
 # Data Sources
 @st.cache(ttl=86400, allow_output_mutation=True)
@@ -64,7 +64,6 @@ st.markdown('''
 
 DYDX is a decentralized exchange (DEX) for trading and lending digital assets built on the Ethereum blockchain. It utilizes smart contracts to allow users to trade and borrow assets in a trustless and decentralized way. The platform enables trading of various ERC-20 tokens, and it also offers margin trading and lending services with the use of their native DYDX token. DYDX token holders can also participate in governance of the protocol.
 
-The DYDX token unlocking event refers to the release of a large number of DYDX tokens that were previously locked or "vested". In this case, 150 million DYDX tokens, which is :red[105%] of the current supply, will be unlocked on February 3rd. The tokens were locked to incentivize long-term holding and to align the interest of the token holders with the development of the protocol. The unlocking of these tokens may have an impact on the token's price as it increases the supply of tokens available in the market, which can potentially decrease the demand and price. 
 
 ---
 ### Methodology
@@ -92,7 +91,6 @@ with u3:
     u3.metric("Total Value Locked",f'{tvl:,}',help='USD')
 
 st.markdown('''
-On :blue[February 3, 2023], there will be a token unlock event for the DYDX token. This event is being closely monitored by the company and its investors to see how it will impact the holders, swaps volume, price, and other metrics of the token. The :red[150 million] DYDX tokens, which is approximately 15% of the total supply, will be unlocked and distributed to investors and team members on the mentioned date. This is a significant amount, as it represents roughly :red[105%] of the current circulation of the token. This event could potentially have a significant impact on the token's value and overall market performance.
 ''')
   
 
@@ -168,7 +166,7 @@ with col2:
         use_container_width=True
     )
 st.write('''
-An analysis of DYDX holders shows that :red[21.1%] of them hold a very small amount of tokens, specifically between :blue[0 and 0.1] tokens, which is considered to be equivalent to having no tokens at all. Additionally, a further :red[5.65%] of DYDX holders possess less than :blue[1] token. This highlights the distribution of token ownership among DYDX holders with a significant portion of them holding minimal amounts of tokens. Recently, the holders with lower amounts of tokens have been increasing, which may be an indication of a potential sell-off. This could suggest that a large number of holders are potentially selling off their small holdings, potentially due to market conditions or personal financial needs.
+An analysis of DYDX holders shows that :red[21.1%] of them hold a very small amount of tokens, specifically between :blue[0 and 0.1] tokens, which is considered to be equivalent to having no tokens at all. Additionally, a further :red[5.65%] of DYDX holders possess less than :blue[1] token. This highlights the distribution of token ownership among DYDX holders with a significant portion of them holding minimal amounts of tokens.  
 
 ---
 ''')
@@ -193,7 +191,6 @@ st.markdown('''
 
 Staking refers to the process of locking up tokens in a contract in order to receive rewards or benefits. These rewards can include things like interest, governance rights, or access to exclusive features. Unstaking refers to the process of withdrawing tokens from a staked position and making them available for use or transfer again.
 
-Recently, the unstaking of DYDX tokens has been increased due to news of unlocking 150M DYDX tokens. This means that a large number of people who had previously locked up their DYDX tokens in a staked position are now withdrawing them and making them available for use or transfer again. The reason for this may be that the holders believe they can get better returns by selling or using the tokens rather than keeping them locked up in a staked position.
 
 ''')
 
@@ -233,7 +230,7 @@ st.markdown('''
 
 ### Transfers
 
-As the charts shows the majority of DYDX tokens that are being transferred or being sent to centralized exchanges, as holders may be trying to sell them in order to rescue themselves from potential price drop. Binance is a popular centralized exchange, and it is possible that a significant number of DYDX tokens are being transferred there in order to be sold on the platform.
+As the charts shows the majority of DYDX tokens that are being transferred or being sent to centralized exchanges. Binance is a popular centralized exchange, and it is possible that a significant number of DYDX tokens are being transferred there in order to be sold on the platform.
 ''')
 
 j1,j2 = st.columns(2)
@@ -271,7 +268,7 @@ st.markdown('''
 
 A swap refers to the process of exchanging one cryptocurrency for another. In the context of decentralized exchanges, a swap is typically conducted using smart contracts, which allow users to trade cryptocurrencies without the need for a central intermediary.
 
-It is possible that the majority of DYDX tokens are being swapped to Wrapped Ethereum (WETH) or other stablecoins in decentralized exchanges, due to fear of a price drop following the unlocking of 150M DYDX tokens. By swapping their DYDX tokens, holders may be able to avoid potential losses if the price of DYDX drops and also take advantage of the liquidity.
+It is possible that the majority of DYDX tokens are being swapped to Wrapped Ethereum (WETH) or other stablecoins in decentralized exchanges. 
 ''')
 
 y1,y2 = st.columns(2)
@@ -308,7 +305,7 @@ st.markdown('''
 
 ### Conclusion
 
-In conclusion, it appears that some DYDX token holders are trying to sell or unstake their tokens in anticipation of a potential price drop following the release of :red[150M] DYDX tokens on February 3rd. This represents :red[105%] of the current supply and could potentially affect the token's price. Some holders may be transferring their tokens to centralized exchanges such as Binance to sell them or swapping them for Wrapped Ethereum (WETH) in decentralized exchanges. However, it is important to note that the price of DYDX may not necessarily drop and any predictions on the price movement should be taken cautiously as cryptocurrency markets are highly speculative and can be unpredictable, but the past 90 days shows, selling pressure from the holders, lets see what will happen.
+To wrap up, we see there is significant price drop due to market situations in recent months. In swapping pairs most of users prefer WETH to swap their dYdX token. Majority of holders are small holders which means they are holding less than 1000 dYdX tokens, and this small holders are increasing in recent days. In terms of staking we don't see any noticible change in staking amount and transactions although the unlocking has been postponed.
 ''')
 
 u1,u2,u3,u4,u5 = st.columns((5))
