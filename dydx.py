@@ -57,7 +57,7 @@ date_object = datetime.strptime(updt, "%Y-%m-%dT%H:%M:%S.%fZ")
 date_ = date_object.strftime("%Y-%m-%d")
 tvl = dydx_p2['market_data']['total_value_locked']['usd']
 
-st.title('DYDX Unlock')
+st.title('dYdX token activity')
 st.markdown('''
 ### Introduction
 ---
