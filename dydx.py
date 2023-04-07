@@ -67,7 +67,7 @@ DYDX is a decentralized exchange (DEX) for trading and lending digital assets bu
 
 ---
 ### Methodology
-DYDX contract address is `0x92d6c1e31e14520e676a687f0a93788b716beff5` and with the help of Flipside Crypto, we use the 'ethereum.core' table to find out the price of this token, holders, staking actions, swapping volume, and finally transfers. Which is calculated and visualized as below to find out the impact of major DYDX token release on the market. As we could find the previous on chain data of users behavior.
+dYdX's token contract address is `0x92d6c1e31e14520e676a687f0a93788b716beff5` and with the help of Flipside Crypto, we use the 'ethereum.core' table to find out the price of this token, holders, staking actions, swapping volume, and finally transfers. Which is calculated and visualized as below to find out the impact of major DYDX token release on the market. As we could find the previous on chain data of users behavior.
 Besides of those on-chain data, I gathered some data from Coingecko api to help us get overall idea of the token.
 ''')
 
